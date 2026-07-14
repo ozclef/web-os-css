@@ -33,12 +33,24 @@ https://ozclef.github.io/root-css-js-os/web/market.html
 
 
 
+----
 
+
+____
 -----
 
-## cv css web
+## cv css web  &&  Print 
+
+NO FUNCIONANDO----https://ozclef.github.io/root-css-js-os/web/cv/
+
+https://ozclef.github.io/root-css-js-os/web/print/
 
 
+<img width="947" height="909" alt="image" src="https://github.com/user-attachments/assets/a2a56769-a150-434d-841b-9304aad97013" />
+
+
+
+____
 -------
 
 ## UNICORN WEB
