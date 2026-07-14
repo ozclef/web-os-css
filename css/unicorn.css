@@ -1,0 +1,294 @@
+/*==================================================
+=               PALETA UNICORN NAILS
+==================================================*/
+
+:root{
+  /* Fondo principal (rosa pastel) */  
+	--bg:#fdf4f8;
+  /* Texto */
+  --text:#5f5063;
+  /* Tarjetas blancas */
+  --card:rgba(255,255,255,.72);
+  /* Tarjetas un poquito más rosas */
+  --card-soft:rgba(255,240,246,.72);
+  /* Color principal */
+  --accent:#f6c1d1;
+  /* Rosa pastel */
+  --pink:#f8cddd;
+  /* Rosa clarito */
+  --pink-light:#ffe9f1;
+  /* Lavanda */
+  --lavender:#efdfff;
+  /* Blanco */
+  --white:#ffffff;
+  /* Gris rosita */
+  --muted:#b790a5;
+  /* Bordes */
+  --border:rgba(255,255,255,.65);
+  --radius:18px;
+  /* RGB decoración */
+  /* Rosa fuerte */
+  --accent1:#ff7bc5;
+  /* Lila */
+  --accent2:#c48cff;
+  /* Celeste pastel */
+  --accent3:#9fe8ff;
+}
+
+/*
+/*cambiaría los colores.* /
+--accent1:#ff86c8;
+--accent2:#d29bff;
+--accent3:#a6f1ff;
+Entonces:
+border-image:
+linear-gradient(
+90deg,
+var(--accent1),
+var(--accent2),
+var(--accent3)
+)1;
+Lo que SÍ dejaría✅rgba(255,255,255,.75)
+Vidrio.✅rgba(255,240,246,.60)
+Rosita transparente.✅rgba(255,255,255,.40)
+Muy elegante.✅backdrop-filter:blur(15px);
+Da efecto iOS.
+Una paleta completa que combina
+/** Blanco *//*
+#ffffff
+/** Blanco rosado *//*
+#fff8fb
+
+/** Rosa pastel *//*
+#ffd9e7
+
+/** Rosa bebé *//*
+#ffc5dc
+
+/** Rosa algodón *//*
+#ffb8d8
+
+/** Lavanda *//*
+#eadbff
+
+/** Lila *//*
+#d7c2ff
+
+/** Celeste pastel *//*
+#dff7ff
+
+/** Menta pastel *//*
+#dfffe8
+
+/** Gris rosita *//*
+#b89bac
+
+/** Texto *//*
+#5f5063
+*/
+
+*{box-sizing:border-box;font-family:Inter,system-ui}
+
+html{ background-color: #f6c1d1;
+ /* filter: blur(2px);*/
+	}
+
+body{    
+	transition:.25s;
+	margin:0;
+	width:100%;
+	color:var(--text);
+	
+	 background:
+    radial-gradient(circle at top,
+					180deg,
+      rgba(255,255,255,0.95),
+      rgba(255,220,235,0.8),
+      rgba(255,190,215,0.6),
+      rgba(255,170,205,0.35),
+      transparent 70%
+    );
+	position: absolute;
+	/*
+	background:linear-gradient(135deg,#ffe8f1,#fff6fa,#f5ebff);
+	*/
+}
+header{
+	position: fixed; 
+	top: 0; 
+	left: 0;      right: 0; 
+	display: flex;  
+	justify-content: space-between;   
+	align-items: center;   
+	z-index: 1000;  
+    background:rgba(255,255,255,.55);
+  /*background:var(--card);* /
+	padding: 12px 24px;    
+	justify-content:space-between;
+  display:flex;
+  padding:16px;align-items:center;
+	position:sticky;/*fixed;/*sticky;
+    backdrop-filter:blur(16px);*/
+    box-shadow: 0 10px 30px rgba(255,170,210,.18);
+}
+
+nav a , nav h1  , nav h2, nav img  {
+  margin-left:12px;	
+	text-decoration:none;
+	color:var(--muted);
+}
+ .layout {     
+	 top:10vh;
+	 display: grid; 
+	 grid-template-columns: 220px 1fr 220px;
+	 gap: 18px;
+	 padding: 50px 24px 24px; 
+ }
+
+main {
+	width:100%;
+	box-shadow: 2px 3px 12px rgba(255,255,255,0.05);
+	border-bottom: 2px solid transparent;
+	border-image: linear-gradient(
+		90deg,
+		var(--accent1),
+		var(--accent2),
+		var(--accent3)
+	) 1;
+} 
+
+
+main{	
+    background:transparent;
+}
+
+
+aside{
+    background:var(--card);
+    backdrop-filter:blur(12px);
+	padding: 12px;  
+    border:1px solid rgba(255,255,255,.6);
+	border-radius: 8px;   
+	box-shadow: 2px 3px 12px rgba(255,255,255,0.05);
+	border-bottom: 2px solid transparent;
+	border-image: linear-gradient(
+		90deg,
+		var(--accent1),
+		var(--accent2),
+		var(--accent3)
+	) 1;  
+}
+
+
+
+footer{
+    background:rgba(255,255,255,.45);
+    color:var(--muted);
+    backdrop-filter:blur(12px);
+  	text-align: center;
+  padding: 16px;
+  font-size: 0.85rem;
+  }
+
+
+.card{
+    background:var(--card);
+    backdrop-filter:blur(14px);
+    border:1px solid rgba(255,255,255,.6);
+    border-radius:var(--radius);
+}
+/*
+
+.dato{    background:rgba(255,255,255,.45);      
+      border:1px solid rgba(255,255,255,.5);
+
+}
+.perfil{
+    background:var(--card-soft);
+	border-radius: 12px;   
+	overflow: hidden; 
+}
+*/
+.btn{
+    background:linear-gradient(
+        90deg,
+        #ffb8d8,
+        #ffcde8
+    );
+    color:#744f66;
+  border-radius:var(--radius);
+  	padding:6px 12px;
+	text-decoration:none;
+}
+
+/*
+Hero
+En vez de un solo color...
+*/
+.hero{
+background:linear-gradient(135deg,#ffd7e7,#fff2f7,#efe3ff,#dff8ff);
+  position: relative;
+  width: 100%;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*PORTADA IMAGEN TIPO FACEBOOK + FOTO DE PERFIL*/
+/* 
+  height: 480px;
+  background: linear-gradient(
+    135deg,
+    #f6c1d1,
+    #f9d5e5,
+    #e8c7ff
+  );
+	*/
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: cover;
+	 /* MAGIA */
+	-webkit-mask-image: radial-gradient(	ellipse at center,    black 65%,    transparent 100%);
+	filter: drop-shadow(0 20px 40px rgba(0,0,0,0.2));
+}
+/*
+	*/
+	/*
+  height: 100%;
+  /*
+
+
+/*  FOTO DE PERFIL */
+    .profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid rgba(255,255,255,0.6);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+    /*  LOGOTIPO  */
+    .logo-img {
+  height: 60px;
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.25));
+}
+
+
+
+
+*/
+
+  @media (max-width: 1068px) {
+      .layout {        grid-template-columns: 1fr;      }
+    /*  aside {        display: none;      } */
+      .datos , .layout {        grid-template-columns: 1fr;      }
+    }
