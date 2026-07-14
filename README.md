@@ -1,4 +1,13 @@
 # css-principales-web-os
+
+____
+
+<link rel="stylesheet" href="https://ozclef.github.io/root-css-js-os/css/original.css"/>
+<style>
+  
+</style>
+
+
 con esta lista de css para utilizar queda lista la primera base con debbugin de diseños diferentes para usar e implementar de manera amplia a todos los diseños...
 
 
@@ -34,8 +43,19 @@ https://ozclef.github.io/root-css-js-os/web/market.html
 
 ## UNICORN WEB
 
+https://ozclef.github.io/root-css-js-os/web/unicorn/
 
 <img width="966" height="573" alt="image" src="https://github.com/user-attachments/assets/89965927-af3a-468e-9445-98459c30da99" />
 
 
 -----
+
+##  ONLY BORDER  BOX SHADOW RGB Colors  
+
+####   css/rgb.css
+
+
+https://ozclef.github.io/root-css-js-os/web/rgb/
+
+<img width="949" height="481" alt="image" src="https://github.com/user-attachments/assets/867859c3-b039-470f-a092-bc1b1bc7ecab" />
+
