@@ -92,7 +92,22 @@ https://oscarcruzdiaz.vercel.app/#/photos
 
 <img width="910" height="653" alt="image" src="https://github.com/user-attachments/assets/c671c369-8385-4f6f-bcb0-fb86f9e4f019" />
 
+______
 
+## POST CARD  css diseño 
+
+https://github.com/ozclef/root-css-js-os/css/post.css
+
+<img width="852" height="562" alt="image" src="https://github.com/user-attachments/assets/22e6c7a4-c036-42cb-87fb-dc901d98b33d" />
+
+
+----
+
+
+-----
+
+
+----
 -----
 
 ##  ONLY BORDER  BOX SHADOW RGB Colors  
