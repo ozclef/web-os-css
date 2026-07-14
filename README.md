@@ -59,3 +59,18 @@ https://ozclef.github.io/root-css-js-os/web/rgb/
 
 <img width="949" height="481" alt="image" src="https://github.com/user-attachments/assets/867859c3-b039-470f-a092-bc1b1bc7ecab" />
 
+
+-----
+
+
+-----
+
+
+## RGB 2 -  color 
+
+but orientarion aling items grid header & layout ,  layout aside & main are column
+
+https://ozclef.github.io/root-css-js-os/web/rgb2/
+
+<img width="955" height="589" alt="image" src="https://github.com/user-attachments/assets/721e41dd-314a-4ec3-b1db-00aeffcd91e1" />
+
