@@ -60,6 +60,39 @@ https://ozclef.github.io/root-css-js-os/web/unicorn/
 <img width="966" height="573" alt="image" src="https://github.com/user-attachments/assets/89965927-af3a-468e-9445-98459c30da99" />
 
 
+
+---
+___
+
+
+##  img galería css para 
+
+```css
+.galeria{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+    justify-content:center;
+}
+
+.galeria img{
+    max-width:320px;
+    width:100%;
+    height:auto;
+    border-radius:12px;
+    object-fit:cover;
+    box-shadow:0 4px 12px rgba(0,0,0,.2);
+}
+```
+
+Portafolio + cv + website 
+
+https://oscarcruzdiaz.vercel.app/#/photos
+
+
+<img width="910" height="653" alt="image" src="https://github.com/user-attachments/assets/c671c369-8385-4f6f-bcb0-fb86f9e4f019" />
+
+
 -----
 
 ##  ONLY BORDER  BOX SHADOW RGB Colors  
