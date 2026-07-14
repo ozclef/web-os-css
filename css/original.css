@@ -1,4 +1,8 @@
-    :root {      --bg: #0f1115;      --card: #16181c;      --accent: #6ce6b6;      --muted: #9aa0a6;    }
+    :root {      --bg: #0f1115;  
+           --card: #16181c;   
+           --accent: #6ce6b6; 
+           --muted: #9aa0a6; 
+          }
     body {      margin: 0;      font-family: 'Segoe UI', sans-serif;      background: var(--bg);      color: #eaf7f0;    }
     header {      position: fixed;      top: 0;      left: 0;      right: 0;      background: var(--card);      padding: 12px 24px;      display: flex;      justify-content: space-between;      align-items: center;      z-index: 1000;    }
     header h1 {      margin: 0;      font-size: 18px;      color: var(--accent);    }
